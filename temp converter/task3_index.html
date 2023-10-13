@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter</title>
+
+    <link rel="stylesheet" href="task3_style.css" />
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="converter">
+           
+
+            <h1 class="title">Temperature Converter</h1>
+
+           
+
+           
+            <div class="degree-type">
+
+                <div class="temp-field">
+                    <h3>type</h2>
+                      <select id="temp-type" >
+                        <option id="f" value="fahrenheit">Fahrenheit</option>
+                        <option id="k" value="celsius">Celsius</option>
+                      </select>
+                    </div>
+         
+              <div class="degree-field">
+               <h3>Degree</h3>
+                <input type="number" name="degree" id="degree" />
+              </div>
+              
+
+             
+            </div>
+            <div class="result">
+                <span class="heading">Result</span>
+                <h2 class="value" id="celsius"></h2>
+              </div>
+            <button id="convert-btn">Convert</button>
+            
+        </div>
+      </div>
+
+    <script src="task3_script.js"></script>
+  </body>
+</html>
